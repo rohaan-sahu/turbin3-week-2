@@ -15,7 +15,6 @@ describe("anchor-vault-q1-2026", () => {
   // provider
   const user = anchor.AnchorProvider.env().wallet.publicKey;
 
-
   // Derived PDA
   const [vaultStatePda,stateBump] = anchor.web3.PublicKey.findProgramAddressSync(
     [Buffer.from("state"),user.toBuffer()],

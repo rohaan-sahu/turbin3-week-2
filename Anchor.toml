@@ -6,6 +6,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
+anchor-escrow-q1-2026 = "9oK2oY16rMQ3b3NvuJXkuLyNqLXk7t7aoaSfkdeAZA4X"
 anchor_vault_q1_2026 = "FWdRhCmLTm7gBxF4zFEHmQBEyjQFxDznkfZaz3E6QtGu"
 
 [registry]
