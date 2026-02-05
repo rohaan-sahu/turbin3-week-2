@@ -94,6 +94,7 @@ impl<'info> Make<'info>{
         Ok(())
     }
 
+    /*
     // Add additional fun to Escrow, to be able to create 'maker_ata_y' if it doesn't exist already
     // This may take the load off the 'taker' to crate teh ATA for the maker.
     pub fn ata_y_creation_fund(&mut self)-> Result<()>{
@@ -105,6 +106,7 @@ impl<'info> Make<'info>{
 
         Ok(())
     }
+    */
 
     pub fn deposit(&mut self, deposit: u64)-> Result<()> {
         let transfer_accounts = TransferChecked{
